@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.ExtrasActivity"/>
+      <point      
+        x = "1720"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.ExtrasActivity"/>
+      <point      
+        x = "2940"      
+        y = "4240"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.MedicineActivity"/>
+      <point      
+        x = "1720"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.MedicineActivity"/>
+      <point      
+        x = "2940"      
+        y = "2860"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.HistoryView"/>
+      <point      
+        x = "500"      
+        y = "5620"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.HistoryView"/>
+      <point      
+        x = "1720"      
+        y = "5620"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.UserRegister"/>
+      <point      
+        x = "500"      
+        y = "7000"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.UserRegister"/>
+      <point      
+        x = "1720"      
+        y = "7000"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.UserActivity"/>
+      <point      
+        x = "504"      
+        y = "8376"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.UserActivity"/>
+      <point      
+        x = "1724"      
+        y = "8376"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.HistoryActivity"/>
+      <point      
+        x = "500"      
+        y = "9760"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.HistoryActivity"/>
+      <point      
+        x = "1720"      
+        y = "9760"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.ScheduleActivity"/>
+      <point      
+        x = "500"      
+        y = "11140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.ScheduleActivity"/>
+      <point      
+        x = "1720"      
+        y = "11140"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.MainActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.MainActivity"/>
+      <point      
+        x = "4160"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.ReminderActivity"/>
+      <point      
+        x = "1720"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.ReminderActivity"/>
+      <point      
+        x = "2940"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.AddRecipe"/>
+      <point      
+        x = "2940"      
+        y = "12520"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.AddRecipe"/>
+      <point      
+        x = "4160"      
+        y = "12520"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.AddReminder"/>
+      <point      
+        x = "4160"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.AddReminder"/>
+      <point      
+        x = "5380"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.RecipeActivity"/>
+      <point      
+        x = "500"      
+        y = "12520"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.RecipeActivity"/>
+      <point      
+        x = "1720"      
+        y = "12520"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "com.dvlupit.smartpill.activities.AddMedicine"/>
+      <point      
+        x = "1720"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "com.dvlupit.smartpill.activities.AddMedicine"/>
+      <point      
+        x = "2940"      
+        y = "100"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

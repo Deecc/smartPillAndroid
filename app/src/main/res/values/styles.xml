@@ -1,0 +1,51 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="smartPillTheme"
+        parent="@android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/SPActionBar</item>
+        <item name="android:textColor">@color/LabelFonts</item>
+        <item name="android:datePickerStyle">@android:style/Widget.DatePicker</item>
+        <item name="android:popupMenuStyle">@style/CMOptionsMenu</item>
+    </style>
+
+    <!-- ActionBar styles -->
+    <style name="SPActionBar"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/SPActionBar</item>
+        <item name="android:backgroundStacked">@color/SPActionBar</item>
+        <item name="android:backgroundSplit">@color/SPActionBarBottom</item>
+    </style>
+
+    <!-- ActionBar title text -->
+    <style name="SPActionBarTitleText"
+        parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <style name="LabelFonts"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:textColor">@color/LabelFonts</item>
+    </style>
+
+    <style name="Background"
+        parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="primaryButtons"
+        parent="Widget.AppCompat.Button.Borderless.Colored">
+        <item name="android:background">@color/primaryButtons</item>
+        <item name="android:textColor">@color/actionbar_text</item>
+    </style>
+
+    <style name="CMOptionsMenu" parent="android:Widget.Holo.Light.ListPopupWindow">
+        <item name="android:popupBackground">@color/OptionMenuBG</item>
+        <item name="android:actionMenuTextColor">@color/OptionMenuTxt</item>
+    </style>
+
+</resources>

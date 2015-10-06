@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">SmartPill</string>
+
+    <string name="action_backMain">Voltar ao menu principal</string>
+    <string name="action_extras">Extras</string>
+    <string name="action_box">Caixa de medicamentos</string>
+    <string name="action_schedule">Agenda</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_medicine">Medicamentos</string>
+    <string name="action_history">Visualizar meu histórico</string>
+    <string name="action_reminder">Adicionar novo lembrete</string>
+    <string name="action_recipe">Adicionar uma receita</string>
+    <string name="action_reminder_schedule">Lembretes</string>
+    <string name="action_add_medicine">Cadastrar medicamento</string>
+    <string name="action_add_user">Tudo pronto! Registre meu usuário</string>
+    <string name="action_add_reminder">Adicionar lembrete</string>
+    <string name="action_add_recipe">Adicionar receita</string>
+    <string name="title_activity_medicine_">Medicamentos</string>
+    <string name="title_activity_user">Perfil</string>
+    <string name="title_activity_schedule">Lembretes</string>
+    <string name="title_activity_history">Histórico</string>
+    <string name="title_activity_extras">Extras</string>
+    <string name="title_activity_reminder">Lembretes</string>
+    <string name="title_activity_add_reminder">Tudo certo! Adicionar lembrete.</string>
+    <string name="title_activity_reminder_schedule">Lembretes</string>
+    <string name="title_activity_history_view">Histórico</string>
+    <string name="title_activity_user_register">Cadastro</string>
+    <string name="title_activity_add_medicine">Cadastrar medicamento</string>
+    <string name="title_activity_recipe">Receitas</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_add_recipe">Nova receita</string>
+    <string name="title_activity_logged">Perfil</string>
+
+</resources>

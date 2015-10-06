@@ -1,0 +1,92 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.dvlupit.smartpill.activities.HistoryActivity">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:stretchColumns="*">
+
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|center_horizontal"
+                android:layout_marginLeft="5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Data \nInicial"
+                    android:width="30dp"
+                    android:textColor="@color/LabelFonts"
+                    android:id="@+id/lblDataInicio"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignLeft="@+id/lblDataFinal"
+                    android:layout_alignStart="@+id/lblDataFinal"
+                    android:layout_centerInParent="true"
+                    android:layout_column="0"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <DatePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datePickerBegin"
+                    android:layout_alignTop="@+id/lblDataInicio"
+                    android:layout_centerHorizontal="true"
+                    android:datePickerMode="spinner"
+                    android:layout_column="1"
+                    android:layout_margin="10dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Data \nFinal"
+                    android:id="@+id/lblDataFinal"
+                    android:layout_below="@+id/datePickerBegin"
+                    android:layout_centerInParent="true"
+                    android:layout_column="0"
+                    android:gravity="center_vertical|center_horizontal" />
+
+                <DatePicker
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/datePickerEnd"
+                    android:layout_below="@+id/lblDataFinal"
+                    android:layout_alignLeft="@+id/datePickerBegin"
+                    android:layout_alignStart="@+id/datePickerBegin"
+                    android:datePickerMode="spinner"
+                    android:layout_column="1"/>
+
+            </TableRow>
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="com.dvlupit.smartpill.activities.UserActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Email"
+        android:id="@+id/textViewEmailLogin"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/editTextEmailLogin"
+        android:layout_below="@+id/textViewEmailLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Senha"
+        android:id="@+id/textViewPassLogin"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_below="@+id/editTextEmailLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editTextPassLogin"
+        android:layout_below="@+id/textViewPassLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Entrar"
+        android:id="@+id/btLogin"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@color/SPActionBar"
+        android:textColor="@color/OptionMenuBG"
+        android:layout_below="@+id/editTextPassLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ainda não possuo conta."
+        android:id="@+id/btAddAccount"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingRight="0dp"
+        android:padding="0dp"
+        android:background="@color/SPActionBar"
+        android:textColor="@color/OptionMenuBG"
+        android:layout_below="@+id/btLogin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="15dp" />
+</RelativeLayout>

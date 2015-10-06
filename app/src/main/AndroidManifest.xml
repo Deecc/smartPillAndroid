@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.dvlupit.smartpill" >
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+
+    <application
+        android:name="com.orm.SugarApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/smartPillTheme"
+        android:uiOptions="splitActionBarWhenNarrow"
+        tools:replace="android:icon,android:theme,android:uiOptions" >
+        <meta-data
+            android:name="DATABASE"
+            android:value="smartpill.db" />
+        <meta-data
+            android:name="VERSION"
+            android:value="3" />
+        <meta-data
+            android:name="QUERY_LOG"
+            android:value="true" />
+        <meta-data
+            android:name="DOMAIN_PACKAGE_NAME"
+            android:value="com.dvlupit.smartpill" />
+
+        <activity
+            android:name=".activities.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.MedicineActivity"
+            android:label="@string/title_activity_medicine_" >
+        </activity>
+        <activity
+            android:name=".activities.UserActivity"
+            android:label="@string/title_activity_user" >
+        </activity>
+        <activity
+            android:name=".activities.ScheduleActivity"
+            android:label="@string/title_activity_schedule" >
+        </activity>
+        <activity
+            android:name=".activities.HistoryActivity"
+            android:label="@string/title_activity_history" >
+        </activity>
+        <activity
+            android:name=".activities.ExtrasActivity"
+            android:label="@string/title_activity_extras" >
+        </activity>
+        <activity
+            android:name=".activities.ReminderActivity"
+            android:label="@string/title_activity_reminder" >
+        </activity>
+        <activity
+            android:name=".activities.HistoryView"
+            android:label="@string/title_activity_history_view" >
+        </activity>
+        <activity
+            android:name=".activities.UserRegister"
+            android:label="@string/title_activity_user_register" >
+        </activity>
+        <activity
+            android:name=".activities.AddMedicine"
+            android:label="@string/title_activity_add_medicine" >
+        </activity>
+        <activity
+            android:name=".activities.RecipeActivity"
+            android:label="@string/title_activity_recipe" >
+        </activity>
+        <activity
+            android:name=".activities.AddRecipe"
+            android:label="@string/title_activity_add_recipe" >
+        </activity>
+        <activity
+            android:name=".activities.AddReminder"
+            android:label="@string/action_add_reminder" >
+        </activity>
+        <activity
+            android:name=".activities.LoggedActivity"
+            android:label="@string/title_activity_logged" >
+        </activity>
+    </application>
+
+</manifest>

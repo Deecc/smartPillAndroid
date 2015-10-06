@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.dvlupit.smartpill.activities.ReminderActivity">
+
+
+    <item
+        android:showAsAction="always"
+        android:id="@+id/action_reminder"
+        android:title="@string/action_reminder"
+        tools:ignore="AppCompatResource"/>
+
+
+</menu>
